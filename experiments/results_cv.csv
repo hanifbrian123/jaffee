@@ -1,0 +1,2 @@
+name,backbone,seed,val_acc_mean,val_auc_mean,test_ACC,test_macroF1,test_macroAUC,elapsed_sec
+cv_resnet34,resnet34,42,0.9176470588235294,0.9951888341543513,0.9302325581395349,0.9208791208791209,0.9832689832689833,197.7

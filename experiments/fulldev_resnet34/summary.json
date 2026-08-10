@@ -1,0 +1,107 @@
+{
+  "name": "fulldev_resnet34",
+  "complete": true,
+  "time": "2026-08-10T09:23:47.508862",
+  "seed": 42,
+  "elapsed_sec": 49.93343663215637,
+  "n_train": 170,
+  "n_test": 43,
+  "num_classes": 7,
+  "test_ACC": 0.9534883720930233,
+  "test_macroF1": 0.950915750915751,
+  "test_UAR": 0.9523809523809524,
+  "test_macroAUC": 0.9871299871299871,
+  "test_per_class_auc": [
+    1.0,
+    1.0,
+    1.0,
+    0.9864864864864865,
+    1.0,
+    0.9234234234234235,
+    1.0
+  ],
+  "confusion_matrix_test": [
+    [
+      6,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  ],
+  "config": {
+    "name": "fulldev_resnet34",
+    "backbone": "resnet34",
+    "pretrained": true,
+    "seed": 42,
+    "base_size": 240,
+    "img_size": 224,
+    "batch_size": 16,
+    "epochs": 40,
+    "lr": 0.0003,
+    "weight_decay": 0.0001,
+    "dropout": 0.5,
+    "label_smoothing": 0.05,
+    "hflip": true,
+    "rotate": 12,
+    "brightness": 0.2,
+    "random_erase": 0.25,
+    "tta": 4
+  }
+}
