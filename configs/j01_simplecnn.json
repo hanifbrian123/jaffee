@@ -1,0 +1,19 @@
+{
+  "base_size": 140,
+  "img_size": 128,
+  "batch_size": 16,
+  "epochs": 60,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.5,
+  "label_smoothing": 0.05,
+  "hflip": true,
+  "rotate": 12,
+  "brightness": 0.2,
+  "random_erase": 0.25,
+  "tta": 1,
+  "pretrained": false,
+  "backbone": "simplecnn",
+  "seed": 42,
+  "name": "j01_simplecnn"
+}
