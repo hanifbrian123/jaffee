@@ -1,0 +1,28 @@
+{
+  "backbone": "resnet34",
+  "pretrained": true,
+  "seed": 42,
+  "base_size": 240,
+  "img_size": 224,
+  "batch_size": 16,
+  "dropout": 0.5,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.05,
+  "hflip": true,
+  "rotate": 12,
+  "brightness": 0.2,
+  "random_erase": 0.25,
+  "tta": 4,
+  "es_patience": 10,
+  "strategy": "two_stage",
+  "stage1_lr": 0.001,
+  "stage1_epochs": 30,
+  "stage2_epochs": 70,
+  "stage2_unfreeze": [
+    "layer3",
+    "layer4",
+    "fc"
+  ],
+  "stage2_lr": 1e-05,
+  "name": "exp6_twostage_s2lr1e5"
+}
